@@ -47,6 +47,16 @@ By testing the proposed method on multiple datasets, it can be assessed whether 
 performance gains achieved with the Jetson AGX Orin developer kit are consistent and
 applicable in various real-world settings
 <img width="400" height="400" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/0c77f297-60ae-4237-a023-eb38a3547451">
+</p>
 
+<h1>Application in the societal context</h1>
+<p>
+3D Cinemas: Ensures a seamless and comfortable 3D movie experience by perfectly syncing left and right eye pictures, allowing viewers to appreciate visual effects without discomfort.
+
+VR and AR: Essential for creating realistic and engaging environments in virtual and augmented reality applications. Precise alignment of left and right eye pictures enhances depth perception in gaming, training simulations, and architectural visualization.
+
+Autonomous Vehicles: Enables accurate depth perception, object recognition, and obstacle avoidance in autonomous vehicles. Synchronization in stereo camera configurations enhances the reliability of information, contributing to safer and more efficient autonomous driving systems.
+
+Medical Imaging: Beneficial in medical imaging techniques like laparoscopy and stereoscopic endoscopy. Synchronized stereo pictures aid surgeons in performing minimally invasive surgeries, ensuring safer and more accurate procedures.
 </p>
 
