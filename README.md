@@ -34,7 +34,7 @@ sumably, the decisions made by the Validation Algorithm and the Timestamp-Based 
 gorithm are combined or considered together to make the final sync decision. The specifics
 of how the outputs are merged or weighted to determine the overall sync decision would
 depend on the design and implementation of the algorithm.
-<img width="400" height="400" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/837c6daf-e072-4ee3-8f40-89d7fa615f08">
+<img width="400" height="600" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/837c6daf-e072-4ee3-8f40-89d7fa615f08">
 
 The proposed method has been implemented on Jetson AGX orin developer kit developed
 by Nvidia. By utilizing the Jetson AGX Orin developer kit, the proposed method can
