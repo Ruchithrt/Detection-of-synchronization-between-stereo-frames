@@ -8,7 +8,7 @@ It is an absolute requirement for efficient video effects or glitch-free source 
 For moving cameras or objects, temporal asynchrony may lead to spatially displaced views, false parallax and ghosting effects that can have a significant impact on the perceived 3D quality.
 To eliminate the relative delay between left and right images.
 If the stereo frames are not properly synchronized, the correspondence between the left and right images will be disrupted, which will result in inaccurate depth information and potentially cause problems for 3D reconstruction
-
+<br>
 <img width="805" alt="motivation" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/882cc33b-1f66-4b07-9e02-a3e6944986c1">
 
 
@@ -19,6 +19,8 @@ The Timestamp-Based Algorithm computes
 the absolute difference between the timestamps of the left and right images. This calcula-
 tion allows for the determination of the time disparity or synchronization status between
 the two subsystems.
+<br>
+![blocktime](https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/da248886-18cd-494c-8037-b3bf4679f9b9)
   
 The Validation Algorithm, the SSIM algorithm utilized in between. Initially, the pro-
 cess begins by converting the RAW images to RGB format. Once in RGB format, the
