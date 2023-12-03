@@ -4,10 +4,42 @@
 <p>Detecting synchronization between stereo frames is a critical aspect of stereo vision in computer vision. This process ensures that images captured by two cameras are perfectly aligned in time, eliminating jitter or delays. Achieving synchronization is vital for accurate depth estimation, object tracking, and other computer vision tasks that rely on temporal consistency. The detection involves matching features like edges, textures, and colors between stereo frames and applying transformations for precise alignment.</p>
 
 <h1>Need for Frame Synchronization:</h1>
-<ul>
 It is an absolute requirement for efficient video effects or glitch-free source switching.
 For moving cameras or objects, temporal asynchrony may lead to spatially displaced views, false parallax and ghosting effects that can have a significant impact on the perceived 3D quality.
 To eliminate the relative delay between left and right images.
 If the stereo frames are not properly synchronized, the correspondence between the left and right images will be disrupted, which will result in inaccurate depth information and potentially cause problems for 3D reconstruction
 
-</ul>
+
+<h1>Basic framework for implementation</h1>
+<p>The overall flow consists of two subsystems: 
+
+The Timestamp-Based Algorithm computes
+the absolute difference between the timestamps of the left and right images. This calcula-
+tion allows for the determination of the time disparity or synchronization status between
+the two subsystems.
+  
+The Validation Algorithm, the SSIM algorithm utilized in between. Initially, the pro-
+cess begins by converting the RAW images to RGB format. Once in RGB format, the
+SSIM algorithm is applied to both the left and right RGB images. The SSIM algorithm
+quantifies the structural similarity between the two images, providing a measure of how
+similar they are in terms of their content and structure.
+<h4></h4>
+
+Finally, based on the outputs of both subsystems, the sync decision is determined. Pre-
+sumably, the decisions made by the Validation Algorithm and the Timestamp-Based Al-
+gorithm are combined or considered together to make the final sync decision. The specifics
+of how the outputs are merged or weighted to determine the overall sync decision would
+depend on the design and implementation of the algorithm.
+
+he proposed method has been implemented on Jetson AGX orin developer kit developed
+by Nvidia. By utilizing the Jetson AGX Orin developer kit, the proposed method can
+harness the hardware acceleration capabilities of the platform to significantly improve its
+performance. The powerful GPUs and CPUs on the Orin SoC enable efficient parallel
+processing of complex algorithms, enabling faster execution and enhanced overall system
+performance. The proposed method has been tested on multiple datasets that may present
+variations in image quality, lighting conditions, object occlusions, and scene complexity.
+By testing the proposed method on multiple datasets, it can be assessed whether the
+performance gains achieved with the Jetson AGX Orin developer kit are consistent and
+applicable in various real-world settings
+</p>
+
