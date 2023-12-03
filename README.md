@@ -27,13 +27,15 @@ cess begins by converting the RAW images to RGB format. Once in RGB format, the
 SSIM algorithm is applied to both the left and right RGB images. The SSIM algorithm
 quantifies the structural similarity between the two images, providing a measure of how
 similar they are in terms of their content and structure.
-<h4></h4>
+![ssim](https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/95c1abee-e37e-455e-8f89-518615f852cf)
 
 Finally, based on the outputs of both subsystems, the sync decision is determined. Pre-
 sumably, the decisions made by the Validation Algorithm and the Timestamp-Based Al-
 gorithm are combined or considered together to make the final sync decision. The specifics
 of how the outputs are merged or weighted to determine the overall sync decision would
 depend on the design and implementation of the algorithm.
+![system design](https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/2e8a5002-9af1-4a45-b4da-d2ad77c361a9)
+
 
 he proposed method has been implemented on Jetson AGX orin developer kit developed
 by Nvidia. By utilizing the Jetson AGX Orin developer kit, the proposed method can
@@ -45,5 +47,7 @@ variations in image quality, lighting conditions, object occlusions, and scene c
 By testing the proposed method on multiple datasets, it can be assessed whether the
 performance gains achieved with the Jetson AGX Orin developer kit are consistent and
 applicable in various real-world settings
+![orin](https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/0c77f297-60ae-4237-a023-eb38a3547451)
+
 </p>
 
