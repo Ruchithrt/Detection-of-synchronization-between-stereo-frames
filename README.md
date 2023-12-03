@@ -46,7 +46,7 @@ variations in image quality, lighting conditions, object occlusions, and scene c
 By testing the proposed method on multiple datasets, it can be assessed whether the
 performance gains achieved with the Jetson AGX Orin developer kit are consistent and
 applicable in various real-world settings
-![orin](https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/0c77f297-60ae-4237-a023-eb38a3547451)
+<img width="805" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/0c77f297-60ae-4237-a023-eb38a3547451">
 
 </p>
 
