@@ -20,14 +20,15 @@ the absolute difference between the timestamps of the left and right images. Thi
 tion allows for the determination of the time disparity or synchronization status between
 the two subsystems.
 <br>
-![blocktime](https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/da248886-18cd-494c-8037-b3bf4679f9b9)
+<img width="400" height="500" alt="motivation" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/da248886-18cd-494c-8037-b3bf4679f9b9">
   
 The Validation Algorithm, the SSIM algorithm utilized in between. Initially, the pro-
 cess begins by converting the RAW images to RGB format. Once in RGB format, the
 SSIM algorithm is applied to both the left and right RGB images. The SSIM algorithm
 quantifies the structural similarity between the two images, providing a measure of how
 similar they are in terms of their content and structure.
-![ssim](https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/95c1abee-e37e-455e-8f89-518615f852cf)
+<img width="400" height="500" alt="motivation" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/95c1abee-e37e-455e-8f89-518615f852cf">
+
 
 Finally, based on the outputs of both subsystems, the sync decision is determined. Pre-
 sumably, the decisions made by the Validation Algorithm and the Timestamp-Based Al-
