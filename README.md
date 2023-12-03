@@ -1,6 +1,6 @@
 # Detection-of-synchronization-between-stereo-frames
 
-<h1> Introduction </h1>
+<h1> Introduction:</h1>
 <p>Detecting synchronization between stereo frames is a critical aspect of stereo vision in computer vision. This process ensures that images captured by two cameras are perfectly aligned in time, eliminating jitter or delays. Achieving synchronization is vital for accurate depth estimation, object tracking, and other computer vision tasks that rely on temporal consistency. The detection involves matching features like edges, textures, and colors between stereo frames and applying transformations for precise alignment.</p>
 
 <h1>Need for Frame Synchronization:</h1>
@@ -12,7 +12,7 @@ If the stereo frames are not properly synchronized, the correspondence between t
 <img width="805" alt="motivation" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/882cc33b-1f66-4b07-9e02-a3e6944986c1">
 
 
-<h1>Basic framework for implementation</h1>
+<h1>Basic framework for implementation:</h1>
 <p>The overall flow consists of two subsystems: 
 
 The Timestamp-Based Algorithm computes
@@ -34,7 +34,7 @@ sumably, the decisions made by the Validation Algorithm and the Timestamp-Based 
 gorithm are combined or considered together to make the final sync decision. The specifics
 of how the outputs are merged or weighted to determine the overall sync decision would
 depend on the design and implementation of the algorithm.
-![Team02](https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/837c6daf-e072-4ee3-8f40-89d7fa615f08)
+<img width="400" height="400" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/837c6daf-e072-4ee3-8f40-89d7fa615f08">
 
 The proposed method has been implemented on Jetson AGX orin developer kit developed
 by Nvidia. By utilizing the Jetson AGX Orin developer kit, the proposed method can
@@ -49,7 +49,7 @@ applicable in various real-world settings
 <img width="400" height="400" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/0c77f297-60ae-4237-a023-eb38a3547451">
 </p>
 
-<h1>Application in the societal context</h1>
+<h1>Application in the societal context:</h1>
 <p>
 3D Cinemas: Ensures a seamless and comfortable 3D movie experience by perfectly syncing left and right eye pictures, allowing viewers to appreciate visual effects without discomfort.
 
