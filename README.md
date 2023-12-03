@@ -36,7 +36,7 @@ of how the outputs are merged or weighted to determine the overall sync decision
 depend on the design and implementation of the algorithm.
 ![Team02](https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/837c6daf-e072-4ee3-8f40-89d7fa615f08)
 
-he proposed method has been implemented on Jetson AGX orin developer kit developed
+The proposed method has been implemented on Jetson AGX orin developer kit developed
 by Nvidia. By utilizing the Jetson AGX Orin developer kit, the proposed method can
 harness the hardware acceleration capabilities of the platform to significantly improve its
 performance. The powerful GPUs and CPUs on the Orin SoC enable efficient parallel
@@ -46,7 +46,7 @@ variations in image quality, lighting conditions, object occlusions, and scene c
 By testing the proposed method on multiple datasets, it can be assessed whether the
 performance gains achieved with the Jetson AGX Orin developer kit are consistent and
 applicable in various real-world settings
-<img width="805" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/0c77f297-60ae-4237-a023-eb38a3547451">
+<img width="400" height="400" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/0c77f297-60ae-4237-a023-eb38a3547451">
 
 </p>
 
