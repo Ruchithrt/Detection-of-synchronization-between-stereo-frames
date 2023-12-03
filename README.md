@@ -20,7 +20,7 @@ the absolute difference between the timestamps of the left and right images. Thi
 tion allows for the determination of the time disparity or synchronization status between
 the two subsystems.
 <br>
-<img width="400" height="500" alt="motivation" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/da248886-18cd-494c-8037-b3bf4679f9b9">
+<img width="280" height="500" alt="motivation" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/da248886-18cd-494c-8037-b3bf4679f9b9">
   
 The Validation Algorithm, the SSIM algorithm utilized in between. Initially, the pro-
 cess begins by converting the RAW images to RGB format. Once in RGB format, the
