@@ -48,7 +48,7 @@ applicable in various real-world settings
 <img width="400" height="400" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/0c77f297-60ae-4237-a023-eb38a3547451">
 </p>
 
-<h1>Application in the societal context:</h1>
+<h1>Application:</h1>
 <p>
 3D Cinemas: Ensures a seamless and comfortable 3D movie experience by perfectly syncing left and right eye pictures, allowing viewers to appreciate visual effects without discomfort.
 
