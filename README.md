@@ -18,6 +18,8 @@ The Timestamp-Based Algorithm computes
 the absolute difference between the timestamps of the left and right images. This calcula-
 tion allows for the determination of the time disparity or synchronization status between
 the two subsystems.
+
+
 <img width="280" height="500" alt="motivation" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/da248886-18cd-494c-8037-b3bf4679f9b9">
   
 The Validation Algorithm, the SSIM algorithm utilized in between. Initially, the pro-
