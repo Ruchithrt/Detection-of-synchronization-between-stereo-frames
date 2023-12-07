@@ -27,6 +27,7 @@ cess begins by converting the RAW images to RGB format. Once in RGB format, the
 SSIM algorithm is applied to both the left and right RGB images. The SSIM algorithm
 quantifies the structural similarity between the two images, providing a measure of how
 similar they are in terms of their content and structure.
+
 <img width="400" height="500" alt="motivation" src="https://github.com/Ruchithrt/Detection-of-synchronization-between-stereo-frames/assets/83587252/95c1abee-e37e-455e-8f89-518615f852cf">
 
 
